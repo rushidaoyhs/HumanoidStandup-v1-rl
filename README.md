@@ -5,7 +5,7 @@ RL algorithm for HumanoidStandup-v1 (openai-gym)
 
 * set up python. I used python 2.7.12 Anaconda custum 64-bit
 * set up the openai gym 
-* set up pycharm ide (optional)
+* set up pycharm ide (optional). Make sure you use the right python interpreter.
 * install [mojoco](https://github.com/openai/mujoco-py)
 
 ## About this environment:
@@ -38,5 +38,7 @@ plt.figure(2)
 plt.plot(a_samples)
 plt.show()
 ```
-It shows all the actions are "continuous" and are between [-0.4, 0.4].
+It shows all the actions are "continuous" and are all between [-0.4, 0.4].
 
+## Goal
+How do we know the robot has standed up and since reaching the goal of this task? So we need to dig a bit into the state variables. There must be some variable describing the height of the joints.  
