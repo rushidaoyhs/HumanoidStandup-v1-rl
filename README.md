@@ -16,6 +16,10 @@ RL algorithm for HumanoidStandup-v1 (openai-gym)
 ## Range of the action values:
 
 ```
+import gym
+import matplotlib.pyplot as plt
+import numpy as np
+
 env = gym.make('HumanoidStandup-v1')
 a_samples = []
 for i in range(100):
