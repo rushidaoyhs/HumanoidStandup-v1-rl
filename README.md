@@ -56,9 +56,9 @@ Good idea! Explore it!
 
 If some (s, a) has a large reward, adjust the parameters so that similar state action pairs will have a large reward. 
 
-$mu(s, a) = \phi(s, a)^T theta$. 
+$mu(s, a)$ has same dimention with action variables. In this case, 17.   
 
-$sigma(s, a) = f(s, a)^T v$. 
+$sigma(s, a)$ is a covariance matrix.  
 
 then this method will adjust parameters theta and v. 
 
