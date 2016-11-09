@@ -8,3 +8,9 @@ Setups:
 * set up pycharm ide (optional)
 * install [mojoco](https://github.com/openai/mujoco-py)
 
+About this environment:
+
+* An action is a 17-dimensional vector. So the robot has 17 DOF. 
+* An obsevation is 376-dimensional vector. They probably contains positions, speed, acceleration, angular velocities in the joins. It is not interesting to look into these, although Mujoco has some papers (such as [this one](http://homes.cs.washington.edu/~todorov/papers/TassaIROS12.pdf)) to track. It is more interesting to develop an algorithm without knowing what these states are. 
+
+
