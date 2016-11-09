@@ -43,7 +43,11 @@ It shows all the actions are "continuous" and are all between [-0.4, 0.4].
 ## Goal
 
 Note the environment gives a reward. How is this reward calculated (curious)?
-
 Looking at zdx3578's [solution](https://gym.openai.com/evaluations/eval_w6uskkQOTxG3G0o3pT8q6w). This reward function helps. It increases when the robot stands up. 
+
+## Actor-Critic
+
+## Natural Actor-Critic
+
 
 
