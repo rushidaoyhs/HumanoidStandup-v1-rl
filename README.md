@@ -30,5 +30,5 @@ plt.plot(mins)
 plt.plot(maxes)
 plt.show()
 ```
-It shows all the actions are between [-0.4, 0.4].
+It shows all the actions are continuous and are between [-0.4, 0.4].
 

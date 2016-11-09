@@ -11,6 +11,7 @@ mins = np.min(a_samples, 0)
 maxes = np.max(a_samples, 0)
 print(mins)
 print(maxes)
+print(a_samples)
 
 plt.plot(mins)
 plt.plot(maxes)
