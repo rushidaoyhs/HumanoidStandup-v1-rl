@@ -46,7 +46,28 @@ Note the environment gives a reward. How is this reward calculated (curious)?
 Looking at zdx3578's [solution](https://gym.openai.com/evaluations/eval_w6uskkQOTxG3G0o3pT8q6w). This reward function helps. It increases when the robot stands up. 
 
 ## Actor-Critic
-The actor critic algorithm uses Bolzman machine, and only works for discrete action space. For multi-dimensional continuous action space, I believe you can do some Gaussian algorithms. For example, maintain a distribution function $\pi(s, a)$ in such a way that the mean and variance depend on (s, a). 
+The actor critic algorithm uses Bolzman machine, and only works for discrete action space. 
+
+
+## A new algorithm
+For multi-dimensional continuous action space, I believe you can do some Gaussian algorithms. For example, maintain a distribution function $\pi(s, a)$ in such a way that the mean and variance depend on (s, a). 
+
+Good idea! Explore it! 
+
+If some (s, a) has a large reward, adjust the parameters so that similar state action pairs will have a large reward. 
+
+$mu(s, a) = \phi(s, a)^T theta$. 
+
+$sigma(s, a) = f(s, a)^T v$. 
+
+then this method will adjust parameters theta and v. 
+
+* Gradually sigma should decrease to zero as learning becomes optimal. 
+* mu is converging to the optimal control. 
+* the algorithm is novel in that it allows large exploration in the beginning.  
+
+
+
 
 ## Natural Actor-Critic
 
