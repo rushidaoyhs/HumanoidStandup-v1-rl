@@ -41,4 +41,9 @@ plt.show()
 It shows all the actions are "continuous" and are all between [-0.4, 0.4].
 
 ## Goal
-How do we know the robot has standed up and since reaching the goal of this task? So we need to dig a bit into the state variables. There must be some variable describing the height of the joints.  
+
+Note the environment gives a reward. So maybe not necessary to figure out the goal. How is this reward calculated (curious)?
+
+Looking at zdx3578's [solution](https://gym.openai.com/evaluations/eval_w6uskkQOTxG3G0o3pT8q6w). This reward function helps. It increases when the robot stands up. 
+
+
