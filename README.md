@@ -52,8 +52,6 @@ The actor critic algorithm uses Bolzman machine, and only works for discrete act
 ## A new algorithm
 For multi-dimensional continuous action space, I believe you can do some Gaussian algorithms. For example, maintain a distribution function $\pi(s, a)$ in such a way that the mean and variance depend on (s, a). 
 
-Good idea! Explore it! 
-
 If some (s, a) has a large reward, adjust the parameters so that similar state action pairs will have a large reward. 
 
 $mu(s)$ is a distribution function. Given a state s, generate a vector mu(s). It has same dimention with action variables. In this case, 17.   
@@ -62,14 +60,10 @@ $sigma(s)$ is a covariance matrix. Give a state s, generate a matrix sigma(s), 1
 
 then this method will adjust parameters theta and v. 
 
-* Gradually sigma should decrease to zero as learning becomes optimal. 
 * mu is converging to the optimal control. 
-* the algorithm is novel in that it allows large exploration in the beginning.  
+* sigma should decrease to zero as learning becomes optimal. 
+* the algorithm is novel in that it allows large exploration in the beginning, and decrease exploration gradually as it becomes more confident. 
 
-
-
-
-## Natural Actor-Critic
 
 
 
