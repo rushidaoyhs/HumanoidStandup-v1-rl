@@ -56,9 +56,9 @@ Good idea! Explore it!
 
 If some (s, a) has a large reward, adjust the parameters so that similar state action pairs will have a large reward. 
 
-$mu(s, a)$ has same dimention with action variables. In this case, 17.   
+$mu(s)$ is a distribution function. Given a state s, generate a vector mu(s). It has same dimention with action variables. In this case, 17.   
 
-$sigma(s, a)$ is a covariance matrix.  
+$sigma(s)$ is a covariance matrix. Give a state s, generate a matrix sigma(s), 17 by 17 in this case.   
 
 then this method will adjust parameters theta and v. 
 
