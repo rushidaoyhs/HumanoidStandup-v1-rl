@@ -34,5 +34,5 @@ plt.figure(2)
 plt.plot(a_samples)
 plt.show()
 ```
-It shows all the actions are continuous and are between [-0.4, 0.4].
+It shows all the actions are "continuous" and are between [-0.4, 0.4].
 
