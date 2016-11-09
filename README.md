@@ -26,8 +26,12 @@ maxes = np.max(a_samples, 0)
 print(mins)
 print(maxes)
 
+plt.figure(1)
 plt.plot(mins)
 plt.plot(maxes)
+
+plt.figure(2)
+plt.plot(a_samples)
 plt.show()
 ```
 It shows all the actions are continuous and are between [-0.4, 0.4].

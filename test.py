@@ -11,11 +11,15 @@ mins = np.min(a_samples, 0)
 maxes = np.max(a_samples, 0)
 print(mins)
 print(maxes)
-print(a_samples)
 
+plt.figure(1)
 plt.plot(mins)
 plt.plot(maxes)
+
+plt.figure(2)
+plt.plot(a_samples)
 plt.show()
+
 
 
 # for i_episode in range(20):
