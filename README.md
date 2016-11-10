@@ -74,7 +74,7 @@ The x is a, mu and Sigma depends on s. So we should still learn for the paramete
 why do you need the Critic? Aha. in the policy gradient of J, there is a Q. so you need the Critic. 
 
 this ideas has been explored by [Hado](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.75.7658&rep=rep1&type=pdf)
-The mean is updated and the Sigman is hand set. 
+The mean is updated and the Sigman is hand set. This algorithm doesn't look good. If the TD error is positive, then basically update the action parameter to favor this action. It should be done in a policy gradient way. 
 
 [book chapter](http://oai.cwi.nl/oai/asset/19689/19689B.pdf)
 
