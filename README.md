@@ -71,5 +71,8 @@ The x is a, mu and Sigma depends on s. So we should still learn for the paramete
 
 \pi(s, a) is a now a Gaussian Distribution. 
 
+Previously it was Exp(linear) parametric form. Now it is a Exp(quadratic) form. It will give a better approximation than Bolzman machine. Interesting.  
+
+What about \sigma?
 
 
