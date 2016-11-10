@@ -71,4 +71,4 @@ The x is a, mu and Sigma depends on s. So we should still learn for the paramete
 
 \pi(s, a) is a now a the CDF of Gaussian Distribution. 
 
-why do you need the Critic? Just use policy gradient. 
+why do you need the Critic? Aha. in the policy gradient of J, there is a Q. so you need the Critic. 
