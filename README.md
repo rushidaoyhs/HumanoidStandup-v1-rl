@@ -65,5 +65,10 @@ then this method will adjust parameters theta and v.
 * the algorithm is novel in that it allows large exploration in the beginning, and decrease exploration gradually as it becomes more confident. 
 
 
+[Multi-variatiate Gaussian](https://en.wikipedia.org/wiki/Multivariate_normal_distribution)
+
+The x is a, mu and Sigma depends on s. So we should still learn for the parameters to be used with the features of s. 
+
+
 
 
