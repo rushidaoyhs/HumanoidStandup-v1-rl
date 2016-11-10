@@ -81,7 +81,7 @@ Just study a 1D case.
 
 wait. the pdf of gaussian does not correspond to pi. It is actually the CDF. The CDF of Gaussian can be approximated by the sum of infinitely polynormials. 
 
-[Gaussian policy is mentioned here](http://home.deib.polimi.it/restelli/MyWebSite/pdf/rl7.pdf)
+[Gaussian policy is good for continuous action space](http://home.deib.polimi.it/restelli/MyWebSite/pdf/rl7.pdf)
 
 [paper](http://www.vision.cs.chubu.ac.jp/MPRG/C_group/C060_yamashita2014.pdf)
 
