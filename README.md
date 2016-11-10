@@ -85,3 +85,5 @@ not a lot. you can always publish. the point is good paper. good algorithm.
 [simple algorithm](http://papers.nips.cc/paper/3318-reinforcement-learning-in-continuous-action-spaces-through-sequential-monte-carlo-methods.pdf)
 
 If seeing a large reward at state (s, a), similar states to s should take similar action to a. 
+
+How about taking multiple actions at a single state? Trying out many possible actions. This is possible with a simulation model. 
