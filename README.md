@@ -82,4 +82,4 @@ The mean is updated and the Sigman is hand set.
 
 not a lot. you can always publish. the point is good paper. good algorithm. 
 
-
+[simple algorithm](http://papers.nips.cc/paper/3318-reinforcement-learning-in-continuous-action-spaces-through-sequential-monte-carlo-methods.pdf)
