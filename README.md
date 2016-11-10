@@ -76,4 +76,10 @@ why do you need the Critic? Aha. in the policy gradient of J, there is a Q. so y
 this ideas has been explored by [Hado](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.75.7658&rep=rep1&type=pdf)
 The mean is updated and the Sigman is hand set. 
 
+[book chapter](http://oai.cwi.nl/oai/asset/19689/19689B.pdf)
+
+[more papers](https://scholar.google.com/scholar?client=ubuntu&channel=fs&oe=utf-8&um=1&ie=UTF-8&lr&cites=6846849656859318086)
+
+not a lot. you can always publish. the point is good paper. good algorithm. 
+
 
