@@ -69,5 +69,5 @@ then this method will adjust parameters theta and v.
 
 The x is a, mu and Sigma depends on s. So we should still learn for the parameters to be used with the features of s. 
 
-\pi(s, a) is a now a Gaussian Distribution. 
+\pi(s, a) is a now a the CDF of Gaussian Distribution. 
 
