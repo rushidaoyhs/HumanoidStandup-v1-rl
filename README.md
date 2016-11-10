@@ -75,4 +75,6 @@ Previously it was Exp(linear) parametric form. Now it is a Exp(quadratic) form. 
 
 What about \sigma?
 
+What about 1D? The action variable is only 1D and continuous. It is still advantageous than Bolzman in terms of approximation power, and continuous action. 
+
 
